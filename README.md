@@ -3,6 +3,8 @@
 ## Project Overview
 This project leverages Databricks to analyze social media performance across multiple platforms including LinkedIn, Instagram, Medium, and YouTube. The goal is to provide actionable insights on engagement, virality, and growth trends using Spark, PySpark, and Delta Lake.
 
+Presentation video: https://www.linkedin.com/posts/thejaswinisv_kaggle-dataanalytics-socialmediainsights-share-7427749353647239168-NFBF?utm_source=share&utm_medium=member_desktop&rcm=ACoAADZiPxkBSxkrHMtWvfQ1PMt7p-KJ6XjfxII
+
 Key objectives include:
 - Aggregating social media performance metrics into a centralized Delta Lake table.
 - Performing data cleaning, transformation, and enrichment using PySpark.
@@ -19,6 +21,7 @@ Key objectives include:
 - ML - logistic regression, decision tree, gradient boosting.
 
 ## Dataset
+download the dataset from kaggle: https://www.kaggle.com/datasets/svthejaswini/social-media-performance-and-engagement-data
 The project uses a consolidated social media dataset with the following key columns:  
 - `platform` – Social media platform name (LinkedIn, Instagram, Medium, YouTube)  
 - `views` – Total content views  
